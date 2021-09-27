@@ -1,0 +1,158 @@
+/* background */
+
+body {
+    background-color: #2c2f33;
+
+}
+/* copyright footer */
+footer {
+    font-family:Monospace, Courier;
+    color:#cc7516;
+}
+.foot_index{
+    text-align:center;
+}
+.foot_about{
+    margin-left:10px;
+}
+/* nav index */
+.nav {
+    overflow: auto;
+    text-align: center;
+
+}
+.nav-item {
+    font-family:Monospace, Lucida;
+    font-size: 30px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:12px 100px;
+    border-radius:5px;
+}
+
+.nav-link {
+    color: #4b9c6e;
+}
+.nav-link:hover {
+    color: #cc7516;
+    transition: 0.7s;
+}
+
+/* nav others */
+
+.nav2 {
+    text-align: left;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.nav-link2 {
+    font-family:Monospace, Lucida;
+    font-size: 45px;
+    color: #4b9c6e;
+    padding: 30px 30px;
+}
+.nav-link2:hover {
+    color: #cc7516;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+/* hr */
+
+hr {
+    height: 1px;
+    color: #2c2f33;
+    background-color: #2c2f33;
+    border: none;
+}
+
+/* index.html */
+.hello {
+    padding:25px;
+    color: #4b9c6e;
+    font-family:Monospace, Lucida;
+    font-size: 80px;
+    text-align: center;
+}
+.world {
+    color:#cc7516;
+}
+
+.first {
+    color: #4f6354;
+    font-family:Monospace, Lucida;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* about.html */
+
+.about {
+    color:#ada8a3;
+    font-size:22px;
+    padding: 15px;
+    margin-left:50px;
+    font-family:Monospace, Courier;
+}
+
+.aboutheader {
+    color:#cc7516;
+}
+
+.change_font {
+    color:#ada8a3;
+    font-family:Monospace, Courier;
+    font-size:24px;
+    padding: 22px;
+    margin-left:46px;
+
+}
+.astext {
+    color:#ada8a3;
+    font-family:Monospace, Courier;
+    font-size:24px;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+.about_link {
+    color:#4f6354;
+}
+
+.about_link:hover{
+    color:#cc7516;
+    text-decoration: none;
+}
+
+.email {
+    color:#4f6354;
+}
+
+/* countries.html */
+.continent {
+    color:#ada8a3;
+    padding: 10px 70px;
+    font-family:Monospace, Courier;
+    font-size:24px;
+}
+
+.country {
+    color:#cc7516;
+    padding: 10px 70px;
+    font-family:Monospace, Courier;
+    font-size:26px;
+    letter-spacing:4px;
+}
+
+/* codes.html */
+.codes {
+    padding: 10px 70px;
+    color:#ada8a3;
+    font-family:Monospace, Courier;
+}
+.code_head {
+    color:#cc7516
+}

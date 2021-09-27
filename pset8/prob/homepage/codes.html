@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>
+            Code
+        </title>
+    </head>
+    <body>
+        <div class="othernav">
+            <nav class="nav2">
+                <a class="nav-link2" href="index.html">home</a>
+                <a class="nav-link2" href="about.html">about</a>
+                <a class="nav-link2" href="countries.html">countries</a>
+                <a class="nav-link2" href="codes.html">reload</a>
+        </div>
+
+        <hr>
+        <!-- index -->
+
+        <div class="codes">
+        <h2 class="code_head">
+            home (index.html)
+        </h2>
+        <xmp><!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>
+            My Webpage
+        </title>
+    </head>
+    <body>
+        <div class="hello">
+            hello, <span class="world">world!</span>
+        </div>
+        <div class="first">
+            this is my first webpage.
+        </div>
+        <hr>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">reload</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="countries.html">countries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="codes.html">code</a>
+                </li>
+            </ul>
+
+    </body>
+</html>
+
+        </xmp>
+        <!-- about -->
+
+        </div>
+        <div class="codes">
+        <h2  class="code_head">
+            about (about.html)
+        </h2>
+        <xmp><!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>
+            About
+        </title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+                document.querySelector('#big').addEventListener('click', function() {
+                    document.getElementById("content").style.fontSize = '26px';
+                });
+
+                document.querySelector('#small').addEventListener('click', function() {
+                    document.getElementById("content").style.fontSize = '18px';
+                });
+
+                document.querySelector('#normal').addEventListener('click', function() {
+                    document.getElementById("content").style.fontSize = '22px';
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <div class="othernav">
+            <nav class="nav2">
+                <a class="nav-link2" href="index.html">home</a>
+                <a class="nav-link2" href="about.html">reload</a>
+                <a class="nav-link2" href="countries.html">countries</a>
+                <a class="nav-link2" href="codes.html">code</a>
+
+        </div>
+        <div class="change_font">
+            font size
+            <button class="astext" id="big">+</button>
+            <button class="astext" id="normal">&#183;</button>
+            <button class="astext" id="small">-</button>
+        </div>
+        <div id="content"class="about">
+            <h2 class="aboutheader">
+            about this webpage.
+            </h2>
+            <p>
+                ...
+            </p>
+            <h2 class="aboutheader">
+            my experience with cs50.
+            </h2>
+            <p>
+                ...
+            </p>
+            <h2 class="aboutheader">
+            continent and countries.
+            </h2>
+            <p>
+                ...
+            </p>
+            <h2 class="aboutheader">
+            contact me.
+            </h2>
+            <p>
+               ...
+            </p>
+        </div>
+
+    </body>
+</html></xmp>
+        </div>
+        <!-- countries -->
+
+        <div class="codes">
+        <h2  class="code_head">
+            countries (countries.html)
+        </h2>
+        <xmp><!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+
+        <title>
+            My Webpage
+        </title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#af').addEventListener('click', function(){
+                    document.querySelector('#ans').innerHTML = 'Algeria<br>Angola<br>Benin<br>Botswana<br>Burkina Faso<br>Burundi<br>Cabo Verde<br>Cameroon<br>Central African Republic<br>Chad<br>Comoros<br>Democratic Republic of the Congo<br>Republic of the Congo<br>Djibouti<br>Egypt<br>Equatorial Guinea<br>Ethiopia<br>Gabon<br>Gambia<br>Ghana<br>Guinea<br>Guinea-Bissau<br>Ivory Coast<br>Kenya<br>Lesotho<br>Liberia<br>Libya<br>Madagascar<br>Malawi<br>Mali<br>Mauritania<br>Mauritius<br>Morocco<br>Mozambique<br>Namibia<br>Niger<br>Nigeria<br>Rwanda<br>Sao Tome and Principe<br>Senegal<br>Seychelles<br>Sierra Leone<br>Somalia<br>South Africa<br>South Sudan<br>Sudan<br>Tanzania<br>Togo<br>Tunisia<br>Uganda<br>Zambia<br>Zimbabwe';
+                });
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#as').addEventListener('click', function(){
+                    document.querySelector('#ans').innerHTML = 'Afghanistan<br>Armenia<br>Azerbaijan<br>Bahrain<br>Bangladesh<br>Bhutan<br>Brunei<br>Cambodia<br>China<br>Cyprus<br>Georgia<br>India<br>Indonesia<br>Iran<br>Iraq<br>Israel<br>Japan<br>Jordan<br>Kazakhstan<br>Kuwait<br>Kyrgyzstan<br>Laos<br>Lebanon<br>Malaysia<br>Maldives<br>Mongolia<br>Myanmar (Burma)<br>Nepal<br>North Korea<br>Oman<br>Pakistan<br>Palestine<br>Philippines<br>Qatar<br>Russia<br>Saudi Arabia<br>Singapore<br>South Korea<br>Sri Lanka<br>Syria<br>Taiwan<br>Tajikistan<br>Thailand<br>Timor-Leste<br>Turkey<br>Turkmenistan<br>United Arab Emirates<br>Uzbekistan<br>Vietnam<br>Yemen';
+                });
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#eu').addEventListener('click', function(){
+                    document.querySelector('#ans').innerHTML = 'Albania<br>Andorra<br>Armenia<br>Austria<br>Azerbaijan<br>Belarus<br>Belgium<br>Bosnia and Herzegovina<br>Bulgaria<br>Croatia<br>Cyprus<br>Czechia<br>Denmark<br>Estonia<br>Finland<br>France<br>Georgia<br>Germany<br>Greece<br>Hungary<br>Iceland<br>Ireland<br>Italy<br>Kazakhstan<br>Kosovo<br>Latvia<br>Liechtenstein<br>Lithuania<br>Luxembourg<br>Malta<br>Moldova<br>Monaco<br>Montenegro<br>Netherlands<br>North Macedonia<br>Norway<br>Poland<br>Portugal<br>Romania<br>Russia<br>San Marino<br>Serbia<br>Slovakia<br>Slovenia<br>Spain<br>Sweden<br>Switzerland<br>Turkey<br>Ukraine<br>United Kingdom<br>Vatican City';
+                });
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#na').addEventListener('click', function(){
+                    document.querySelector('#ans').innerHTML = 'Antigua and Barbuda<br>Bahamas<br>Barbados<br>Belize<br>Canada<br>Costa Rica<br>Cuba<br>Dominica<br>Dominican Republic<br>El Salvador<br>Grenada<br>Guatemala<br>Haiti<br>Honduras<br>Jamaica<br>Mexico<br>Nicaragua<br>Panama<br>Saint Kitts and Nevis<br>Saint Lucia<br>Saint Vincent and the Grenadines<br>Trinidad and Tobago<br>United States of America';
+                });
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#sa').addEventListener('click', function(){
+                    document.querySelector('#ans').innerHTML = 'Argentina<br>Bolivia<br>Brazil<br>Chile<br>Colombia<br>Ecuador<br>Guyana<br>Paraguay<br>Peru<br>Suriname<br>Uruguay<br>Venezuela';
+                });
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#oc').addEventListener('click', function(){
+                    document.querySelector('#ans').innerHTML = 'Australia<br>Fiji<br>Kiribati<br>Marshall Islands<br>Micronesia<br>Nauru<br>New Zealand<br>Palau<br>Papua New Guinea<br>Samoa<br>Solomon Islands<br>Tonga<br>Tuvalu<br>Vanuatu';
+                });
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#an').addEventListener('click', function(){
+                    document.querySelector('#ans').innerHTML = 'Antartica is the only country!';
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="othernav">
+            <nav class="nav2">
+                <a class="nav-link2" href="index.html">home</a>
+                <a class="nav-link2" href="about.html">about</a>
+                <a class="nav-link2" href="countries.html">reload</a>
+                <a class="nav-link2" href="codes.html">code</a>
+        </div>
+        <hr>
+        <div class="continent">
+            <h2>get the list of countries in a continent!</h2>
+            <hr>
+            <button style="margin-right: 15px" style="margin-top: 15px" type="button" class="btn btn-outline-secondary btn-lg" id="af">africa</button>
+            <button style="margin-right: 15px" style="margin-top: 15px" type="button" class="btn btn-outline-secondary btn-lg" id="as">asia</button>
+            <button style="margin-right: 15px" style="margin-top: 15px" type="button" class="btn btn-outline-secondary btn-lg" id="eu">europe</button>
+            <button style="margin-right: 15px" style="margin-top: 15px" type="button" class="btn btn-outline-secondary btn-lg" id="na">north america</button>
+            <button style="margin-right: 15px" style="margin-top: 15px" type="button" class="btn btn-outline-secondary btn-lg" id="sa">south america</button>
+            <button style="margin-right: 15px" style="margin-top: 15px" type="button" class="btn btn-outline-secondary btn-lg" id="oc">oceania</button>
+            <button style="margin-right: 15px" style="margin-top: 15px" type="button" class="btn btn-outline-secondary btn-lg" id="an">antarctica</button>
+        </div>
+
+        <div class="country">
+            <p id="ans"></p>
+        </div>
+    </body>
+</html>
+        </xmp>
+        </div>
+
+        <div class="codes">
+        <h2  class="code_head">
+            css (styles.css)
+        </h2>
+        <xmp>/* background */
+
+body {
+    background-color: #2c2f33;
+
+}
+
+/* copyright footer */
+
+footer {
+    font-family:Monospace, Courier;
+    color:#cc7516;
+}
+.foot_index{
+    text-align:center;
+}
+.foot_about{
+    margin-left:10px;
+}
+
+/* nav index */
+.nav {
+    overflow: auto;
+    text-align: center;
+
+}
+.nav-item {
+    font-family:Monospace, Lucida;
+    font-size: 30px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:12px 100px;
+    border-radius:5px;
+}
+
+.nav-link {
+    color: #4b9c6e;
+}
+.nav-link:hover {
+    color: #cc7516;
+    transition: 0.7s;
+}
+
+/* nav others */
+
+.nav2 {
+    text-align: left;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.nav-link2 {
+    font-family:Monospace, Lucida;
+    font-size: 45px;
+    color: #4b9c6e;
+    padding: 30px 30px;
+}
+.nav-link2:hover {
+    color: #cc7516;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+/* hr */
+
+hr {
+    height: 1px;
+    color: #2c2f33;
+    background-color: #2c2f33;
+    border: none;
+}
+
+/* index.html */
+.hello {
+    padding:25px;
+    color: #4b9c6e;
+    font-family:Monospace, Lucida;
+    font-size: 80px;
+    text-align: center;
+}
+.world {
+    color:#cc7516;
+}
+
+.first {
+    color: #4f6354;
+    font-family:Monospace, Lucida;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* about.html */
+
+.about {
+    color:#ada8a3;
+    font-size:22px;
+    padding: 15px;
+    margin-left:50px;
+    font-family:Monospace, Courier;
+}
+
+.aboutheader {
+    color:#cc7516;
+}
+
+.change_font {
+    color:#ada8a3;
+    font-family:Monospace, Courier;
+    font-size:24px;
+    padding: 22px;
+    margin-left:46px;
+
+}
+.astext {
+    color:#ada8a3;
+    font-family:Monospace, Courier;
+    font-size:24px;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+.about_link {
+    color:#4f6354;
+}
+
+.about_link:hover{
+    color:#cc7516;
+    text-decoration: none;
+}
+
+.email {
+    color:#4f6354;
+}
+
+/* countries.html */
+.continent {
+    color:#ada8a3;
+    padding: 10px 70px;
+    font-family:Monospace, Courier;
+    font-size:24px;
+}
+
+.country {
+    color:#cc7516;
+    padding: 10px 70px;
+    font-family:Monospace, Courier;
+    font-size:26px;
+    letter-spacing:4px;
+}
+
+/* codes.html */
+.codes {
+    padding: 10px 70px;
+    color:#ada8a3;
+    font-family:Monospace, Courier;
+}
+.code_head {
+    color:#cc7516
+}
+</xmp>
+        </div>
+        <footer class="foot_about"> <small>&copy; Copyright 2021, Laaveshwaran Parthiban</small> </footer>
+    </body>
+</html>
