@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Cash
+{% endblock %}
+
+{% block main %}
+    <p class="textstyle"> Your current cash balance is {{user_cash | usd}}.</p>
+    <form action="/addcash" method="post">
+        <div id="addstyle" class="form-row align-items-center">
+            <div class="col-auto my-1">
+                <select name="addcash" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                    <option disabled selected>Select amount to add</option>
+                    <option value="500">&#36;500</option>
+                    <option value="2000">&#36;2000</option>
+                    <option value="5000">&#36;5000</option>
+                    <option value="10000">&#36;10000</option>
+                </select>
+            </div>
+            <div class="col-auto my-1">
+                <button type="submit" class="btn btn-outline-light">Submit</button>
+            </div>
+        </div>
+    </form>
+{% endblock %}
