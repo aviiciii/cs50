@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Convert to Morse Code
+{% endblock %}
+
+{% block script %}
+
+
+{% endblock %}
+
+{% block main %}
+    <form action="/convert" method="post">
+
+        <div class="form-outline form-white" id="contxt">
+            <textarea class="form-control form-control-lg" id="textsty" placeholder="Enter text here..." name="eng" rows="4" cols="1" autofocus>{{eng}}</textarea>
+        </div>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-light" type="sumbit">Convert</button>
+        </div>
+    </form>
+
+    <p id="morse">{{message}}</p>
+
+{% endblock %}

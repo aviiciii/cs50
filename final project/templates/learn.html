@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Learn Morse Code
+{% endblock %}
+
+{% block main %}
+    <div id="contxt">
+        <p id="textsty">
+            <span class="learnmorse">Morse code</span> is a system of encoding messages using signals and rhythm. In written communication, Morse code uses <span class="learnmorse">dots(.) and dashes(-)</span> to represent alphabet letters, numbers, a limited number of punctuation and special characters of a given message.
+        </p>
+        <p id="textsty">
+            <a class="learnlink" href="https://morse.withgoogle.com/learn">
+                Learn morse with
+                <span id="blue">
+                    G
+                </span>
+                <span id="red">
+                    O
+                </span>
+                <span id="yellow">
+                    O
+                </span>
+                <span id="blue">
+                    G
+                </span>
+                <span id="green">
+                    L
+                </span>
+                <span id="red">
+                    E
+                </span>
+                !
+            </a>
+        </p>
+    </div>
+    <div class="learntable">
+        <table class="table table-borderless table-dark">
+            <thead class="thead-dark">
+                <tr id="tbhead">
+                    <th scope="col">Character</th>
+                    <th scope="col">Morse</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for character in characters %}
+                <tr id="tbbody">
+                    <td>{{character.ch}}</td>
+                    <td id="tbbody-morse">{{character.mr}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
